@@ -1,7 +1,7 @@
 
 #include <check.h>
 
-#include <libglnsvpos/kepler.h>
+#include <libglnsvpos/rungekutta.h>
 #include <libglnsvpos/glnsvpos.h>
 
 #include <unistd.h>
