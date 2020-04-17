@@ -23,7 +23,7 @@ theta_Go =(16*60*60+45*60+16);%из алгоритма расчёта the sidereal time in Greenwi
 omega_e = 0.7292115*10^-4;% скорость вращения Земли
 theta_Ge = theta_Go+omega_e*(Toe - 3*3600);%is the sidereal time at epoch , to which are referred the initial conditions, in Greenwich meridian,10800 сек это три часа
 
-%Пункт 1 переведём в инерциалку
+%Пункт 1 переведём в инерциальную систему
 Xate = X*cos(theta_Ge) - Y*sin(theta_Ge);
 Yate = X*sin(theta_Ge) + Y*cos(theta_Ge);
 Zate = Z;
