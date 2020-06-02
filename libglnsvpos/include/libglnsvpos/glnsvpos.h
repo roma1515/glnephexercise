@@ -1,7 +1,7 @@
 #ifndef GLNSVPOS_H
 #define GLNSVPOS_H
 
-int add(int a, int b);
+void glns_coord(double **koord_n);
 
 #endif /* #ifndef GLNSVPOS_H */
 

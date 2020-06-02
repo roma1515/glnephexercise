@@ -1,7 +1,7 @@
 #ifndef RUNGEKUTTA_H
 #define RUNGEKUTTA_H
 
-int mult(int a, int b);
+void rungekutta(double t0, double tn, double *koord0, double *koord);
 
 #endif /* #ifndef RUNGEKUTTA_H */
 
