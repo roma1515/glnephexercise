@@ -24,9 +24,9 @@ int main()
         koord[i] = new double [6];
     }
     ofstream out;
-    out.open("D:\\res_cpp.txt"); // путь сохранения результатов расчетов на С++
+    out.open("../res_cpp.txt"); // путь сохранения результатов расчетов на С++
     time(&start);
-    ifstream in("D:\\res_mat.txt"); // путь для чтения результатов матлаба
+    ifstream in("../res_mat.txt"); // путь для чтения результатов матлаба
     if (!in)
     {
         cout << "File not open!" << endl;
